@@ -1,0 +1,39 @@
+.w-dyn-list {
+  max-width: 800px;
+}
+
+.w-dyn-list .w-dyn-items {
+  gap: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.listitem img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.listitem span {
+  display: block;
+  margin-top: 16px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.cta {
+  width: 100%;
+  display: none;
+  display: grid;
+  height: 400px;
+  max-width: 800px;
+  background: #eee;
+  text-align: center;
+  border-radius: 8px;
+  place-items: center;
+}
+
+.element {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
