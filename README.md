@@ -2,14 +2,27 @@
 
 inject content into collections
 
+## Install
+
+Add the following script the the bottom of the body tag:
+
+`<script src="https://cw-webflow.s3.eu-west-1.amazonaws.com/cms_element/index.js"></script>`
+
+## Attributes
+
 The element to be injected:
+
 `data-cw-cms-element="element"`
 
 The list the element will be injected into:
+
 `data-cw-cms-element="list"`
 
 The position the element will be inject in at:
+
 `data-cw-cms-element-position="4"`
+
+## Example markup
 
 ```html
 <div data-cw-cms-element="element" class="element">
