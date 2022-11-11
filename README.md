@@ -25,7 +25,11 @@ The position the element will be inject in at:
 ## Example markup
 
 ```html
-<div data-cw-cms-element="element" class="element">
+<div
+  data-cw-cms-element="element"
+  data-cw-cms-element-position="4"
+  class="element"
+>
   <div class="cta">
     <div>
       <h3>A CTA</h3>
@@ -34,11 +38,7 @@ The position the element will be inject in at:
   </div>
 </div>
 
-<div
-  class="w-dyn-list"
-  data-cw-cms-element="list"
-  data-cw-cms-element-position="4"
->
+<div class="w-dyn-list">
   <div role="list" class="w-dyn-items">
     <div class="listitem" data-cw-cms-element="list-item">
       <img
