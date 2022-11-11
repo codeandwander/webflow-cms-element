@@ -28,5 +28,7 @@
 
   const positionVal = parseInt(position.dataset.cwCmsElementPosition) - 2;
 
-  listItems[positionVal].after(element);
+  const copy = element.cloneNode(true);
+  listItems[positionVal].after(copy);
+  element.remove();
 })();
